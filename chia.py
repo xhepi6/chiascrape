@@ -5,7 +5,6 @@ import time
 my_animes_file = open("myanimes.txt","r")
 last_checked = open("lastchecked.txt", "w")
 last_checked_read = open("lastchecked.txt", "r")
-
 with open("myanimes.txt") as myanimes:
     myanimelist = myanimes.read().splitlines()
 
