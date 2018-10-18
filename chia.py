@@ -59,10 +59,10 @@ while True:
             while anime in newanimes:
                 while myanime in myanimelist:
                     if myanime in anime:
-                        
+
 
         except ValueError:
-            newan
+            
 with open("myanimes.txt") as myanimes:
     myanimelist = myanimes.read().splitlines()imes = len(_animelist)
             print(newanimes)
